@@ -1,0 +1,34 @@
+{
+  "name": "service-registry",
+  "version": "0.0.1",
+  "description": "Registry as a service",
+  "main": "router.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "$(npm bin)/node-dev server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kr1sp1n/service-registry.git"
+  },
+  "keywords": [
+    "service",
+    "registry",
+    "connect",
+    "middleware"
+  ],
+  "author": "kr1sp1n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kr1sp1n/service-registry/issues"
+  },
+  "homepage": "https://github.com/kr1sp1n/service-registry",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "etcd-registry": "^2.1.1",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "node-dev": "^2.7.1"
+  }
+}
